@@ -18,7 +18,7 @@ refs.loadMoreButton.addEventListener('click', onButtonLoadMore);
 
 function onFormSearch(e) {
   e.preventDefault();
-
+  refs.loadMoreButton.style.display = 'none';
   pageNumber = 1;
   refs.gallery.innerHTML = '';
 
